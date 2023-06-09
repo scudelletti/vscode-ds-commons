@@ -14,8 +14,24 @@
   "contributes": {
     "commands": [
       {
-        "command": "ds-commons.helloWorld",
-        "title": "Hello World"
+        "command": "ds-commons.terminal.action.zoomIn",
+        "title": "[DS] Terminal: Increase Font Zoom In"
+      },
+      {
+        "command": "ds-commons.terminal.action.zoomOut",
+        "title": "[DS] Terminal: Increase Font Zoom Out"
+      }
+    ],
+    "keybindings": [
+      {
+        "key": "cmd+=",
+        "command": "ds-commons.terminal.action.zoomIn",
+        "when": "terminalFocus"
+      },
+      {
+        "key": "cmd+-",
+        "command": "ds-commons.terminal.action.zoomOut",
+        "when": "terminalFocus"
       }
     ]
   },
