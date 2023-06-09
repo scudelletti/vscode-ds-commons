@@ -20,6 +20,14 @@
       {
         "command": "ds-commons.terminal.action.zoomOut",
         "title": "[DS] Terminal: Increase Font Zoom Out"
+      },
+      {
+        "command": "ds-commons.ds.action.runTestFile",
+        "title": "[DS] Run Tests in Current File"
+      },
+      {
+        "command": "ds-commons.ds.action.runTestCursor",
+        "title": "[DS] Run Test at Cursor"
       }
     ],
     "keybindings": [
